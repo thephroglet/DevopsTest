@@ -1,0 +1,82 @@
+2021-11-14 02:43:03.955  INFO 12620 --- [main] tn.esprit.spring.TimesheetTest           : Starting TimesheetTest on phrog with PID 12620 (started by phrow in C:\Users\phrow\OneDrive\Documents\devops-projet)
+2021-11-14 02:43:03.957  INFO 12620 --- [main] tn.esprit.spring.TimesheetTest           : No active profile set, falling back to default profiles: default
+2021-11-14 02:43:05.005  INFO 12620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-14 02:43:05.132  INFO 12620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116ms. Found 6 repository interfaces.
+2021-11-14 02:43:05.696  INFO 12620 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$708249d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-14 02:43:05.988  INFO 12620 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-14 02:43:06.179  INFO 12620 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-14 02:43:06.280  INFO 12620 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-14 02:43:06.503  INFO 12620 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-14 02:43:06.506  INFO 12620 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-14 02:43:06.789  INFO 12620 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-14 02:43:07.410  INFO 12620 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-14 02:43:09.133  INFO 12620 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 02:43:09.670  INFO 12620 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-14 02:43:11.561  INFO 12620 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-14 02:43:11.660  WARN 12620 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-14 02:43:12.238  INFO 12620 --- [main] tn.esprit.spring.TimesheetTest           : Started TimesheetTest in 8.678 seconds (JVM running for 9.877)
+2021-11-14 02:43:12.368  INFO 12620 --- [main] tn.esprit.spring.TimesheetTest           : In findAllMissionByEmployeJPQLTEST
+2021-11-14 02:43:12.703  INFO 12620 --- [main] tn.esprit.spring.TimesheetTest           : Missions found successfully.
+2021-11-14 02:43:12.709  INFO 12620 --- [main] tn.esprit.spring.TimesheetTest           : In ajouterTimesheetTEST
+2021-11-14 02:43:12.709  INFO 12620 --- [main] tn.esprit.spring.TimesheetTest           : Timesheet Creation
+2021-11-14 02:43:12.776  INFO 12620 --- [main] tn.esprit.spring.TimesheetTest           : Timesheet added successfully.
+2021-11-14 02:43:12.786  INFO 12620 --- [main] tn.esprit.spring.TimesheetTest           : Employees found successfully.
+2021-11-14 02:43:12.789  INFO 12620 --- [main] tn.esprit.spring.TimesheetTest           : In ajouterMissionTEST
+2021-11-14 02:43:12.790  INFO 12620 --- [main] tn.esprit.spring.TimesheetTest           : Mission Creation
+2021-11-14 02:43:12.807  INFO 12620 --- [main] tn.esprit.spring.TimesheetTest           : Mission added successfully.
+2021-11-14 02:43:12.832  INFO 12620 --- [main] tn.esprit.spring.TimesheetTest           : Mission deleted successfully.
+2021-11-14 02:43:12.835  INFO 12620 --- [main] tn.esprit.spring.TimesheetTest           : In affecterMissionADepartementTEST
+2021-11-14 02:43:12.836  INFO 12620 --- [main] tn.esprit.spring.TimesheetTest           : Mission Creation
+2021-11-14 02:43:12.839  INFO 12620 --- [main] tn.esprit.spring.TimesheetTest           : Mission added successfully.
+2021-11-14 02:43:12.840  INFO 12620 --- [main] tn.esprit.spring.TimesheetTest           : Department Creation.
+2021-11-14 02:43:12.854  INFO 12620 --- [main] tn.esprit.spring.TimesheetTest           : Department added successfully.
+2021-11-14 02:43:12.876  INFO 12620 --- [main] tn.esprit.spring.TimesheetTest           : Mission affected successfully.
+2021-11-14 02:43:12.879  INFO 12620 --- [main] tn.esprit.spring.TimesheetTest           : In validerTimesheetTEST
+2021-11-14 02:43:12.894  INFO 12620 --- [main] tn.esprit.spring.TimesheetTest           : This USER should be HEAD OF DEPARTMENT of the required mission...
+2021-11-14 02:43:12.911  INFO 12620 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-14 02:43:12.915  INFO 12620 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 02:43:12.924  INFO 12620 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-14 02:43:12.937  INFO 12620 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-14 02:51:01.893  INFO 12960 --- [main] tn.esprit.spring.TimesheetTest           : Starting TimesheetTest on phrog with PID 12960 (started by phrow in C:\Users\phrow\OneDrive\Documents\devops-projet)
+2021-11-14 02:51:01.895  INFO 12960 --- [main] tn.esprit.spring.TimesheetTest           : No active profile set, falling back to default profiles: default
+2021-11-14 02:51:03.238  INFO 12960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-14 02:51:03.404  INFO 12960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 151ms. Found 6 repository interfaces.
+2021-11-14 02:51:03.985  INFO 12960 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5db2f18] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-14 02:51:04.314  INFO 12960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-14 02:51:04.561  INFO 12960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-14 02:51:04.665  INFO 12960 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-14 02:51:04.793  INFO 12960 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-14 02:51:04.795  INFO 12960 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-14 02:51:05.012  INFO 12960 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-14 02:51:05.593  INFO 12960 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-14 02:51:06.942  INFO 12960 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 02:51:07.449  INFO 12960 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-14 02:51:08.726  INFO 12960 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-14 02:51:08.813  WARN 12960 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-14 02:51:09.271  INFO 12960 --- [main] tn.esprit.spring.TimesheetTest           : Started TimesheetTest in 8.008 seconds (JVM running for 9.322)
+2021-11-14 02:51:09.416  INFO 12960 --- [main] tn.esprit.spring.TimesheetTest           : In findAllMissionByEmployeJPQLTEST
+2021-11-14 02:51:09.561  INFO 12960 --- [main] tn.esprit.spring.TimesheetTest           : Missions found successfully.
+2021-11-14 02:51:09.569  INFO 12960 --- [main] tn.esprit.spring.TimesheetTest           : In ajouterTimesheetTEST
+2021-11-14 02:51:09.570  INFO 12960 --- [main] tn.esprit.spring.TimesheetTest           : Timesheet Creation
+2021-11-14 02:51:09.643  INFO 12960 --- [main] tn.esprit.spring.TimesheetTest           : Timesheet added successfully.
+2021-11-14 02:51:09.653  INFO 12960 --- [main] tn.esprit.spring.TimesheetTest           : Employees found successfully.
+2021-11-14 02:51:09.657  INFO 12960 --- [main] tn.esprit.spring.TimesheetTest           : In ajouterMissionTEST
+2021-11-14 02:51:09.657  INFO 12960 --- [main] tn.esprit.spring.TimesheetTest           : Mission Creation
+2021-11-14 02:51:09.674  INFO 12960 --- [main] tn.esprit.spring.TimesheetTest           : Mission added successfully.
+2021-11-14 02:51:09.697  INFO 12960 --- [main] tn.esprit.spring.TimesheetTest           : Mission deleted successfully.
+2021-11-14 02:51:09.701  INFO 12960 --- [main] tn.esprit.spring.TimesheetTest           : In affecterMissionADepartementTEST
+2021-11-14 02:51:09.701  INFO 12960 --- [main] tn.esprit.spring.TimesheetTest           : Mission Creation
+2021-11-14 02:51:09.715  INFO 12960 --- [main] tn.esprit.spring.TimesheetTest           : Mission added successfully.
+2021-11-14 02:51:09.715  INFO 12960 --- [main] tn.esprit.spring.TimesheetTest           : Department Creation.
+2021-11-14 02:51:09.728  INFO 12960 --- [main] tn.esprit.spring.TimesheetTest           : Department added successfully.
+2021-11-14 02:51:09.741  INFO 12960 --- [main] tn.esprit.spring.TimesheetTest           : Mission affected successfully.
+2021-11-14 02:51:09.744  INFO 12960 --- [main] tn.esprit.spring.TimesheetTest           : In validerTimesheetTEST
+2021-11-14 02:51:09.753  INFO 12960 --- [main] tn.esprit.spring.TimesheetTest           : This USER should be HEAD OF DEPARTMENT of the required mission...
+2021-11-14 02:51:10.861  INFO 12960 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-14 02:51:10.865  INFO 12960 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 02:51:10.871  INFO 12960 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-14 02:51:10.884  INFO 12960 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
